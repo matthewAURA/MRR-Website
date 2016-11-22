@@ -15,7 +15,8 @@ environment variables ::
     export FLASK_DEBUG=1
     export MMR_WEBSITE_SECRET=mysecret
 
-Clone the repository ::
+Clone the repository 
+::
       git clone https://github.com/AucklandRobotics/mmr-website
 
 Setup a virtual environment ::
