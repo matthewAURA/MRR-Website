@@ -45,4 +45,9 @@ README.html
 output/
 
 mrr_website/static/libs
+mrr_website/static/css/common.css
+mrr_website/static/js/common.js
 bower_components
+
+.idea/
+.cache/
