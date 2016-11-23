@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Test configs."""
-from mmr_website.app import create_app
-from mmr_website.settings import DevConfig, ProdConfig
+from mrr_website.app import create_app
+from mrr_website.settings import DevConfig, ProdConfig
 
 
 def test_production_config():

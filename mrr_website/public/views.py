@@ -3,11 +3,11 @@
 from flask import Blueprint, flash, redirect, render_template, request, url_for
 from flask_login import login_required, login_user, logout_user
 
-from mmr_website.extensions import login_manager
-from mmr_website.public.forms import LoginForm
-from mmr_website.user.forms import RegisterForm
-from mmr_website.user.models import User
-from mmr_website.utils import flash_errors
+from mrr_website.extensions import login_manager
+from mrr_website.public.forms import LoginForm
+from mrr_website.user.forms import RegisterForm
+from mrr_website.user.models import User
+from mrr_website.utils import flash_errors
 
 blueprint = Blueprint('public', __name__, static_folder='../static')
 

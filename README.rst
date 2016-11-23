@@ -1,5 +1,5 @@
 ===============================
-MMR Website
+MRR Website
 ===============================
 
 Mini Robot Rumble Website
@@ -8,16 +8,16 @@ Mini Robot Rumble Website
 Quickstart
 ----------
 
-Before running shell commands, set the ``FLASK_APP``, ``FLASK_DEBUG`` and ``MMR_WEBSITE_SECRET``
+Before running shell commands, set the ``FLASK_APP``, ``FLASK_DEBUG`` and ``MRR_WEBSITE_SECRET``
 environment variables ::
 
     export FLASK_APP=/path/to/autoapp.py
     export FLASK_DEBUG=1
-    export MMR_WEBSITE_SECRET=mysecret
+    export mrr_website_SECRET=mysecret
 
-Clone the repository 
+Clone the repository
 ::
-      git clone https://github.com/AucklandRobotics/mmr-website
+      git clone https://github.com/AucklandRobotics/mrr-website
 
 Setup a virtual environment ::
 

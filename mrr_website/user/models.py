@@ -4,8 +4,8 @@ import datetime as dt
 
 from flask_login import UserMixin
 
-from mmr_website.database import Column, Model, SurrogatePK, db, reference_col, relationship
-from mmr_website.extensions import bcrypt
+from mrr_website.database import Column, Model, SurrogatePK, db, reference_col, relationship
+from mrr_website.extensions import bcrypt
 
 
 class Role(SurrogatePK, Model):

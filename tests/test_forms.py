@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Test forms."""
 
-from mmr_website.public.forms import LoginForm
-from mmr_website.user.forms import RegisterForm
+from mrr_website.public.forms import LoginForm
+from mrr_website.user.forms import RegisterForm
 
 
 class TestRegisterForm:

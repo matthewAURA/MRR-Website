@@ -4,7 +4,7 @@ import datetime as dt
 
 import pytest
 
-from mmr_website.user.models import Role, User
+from mrr_website.user.models import Role, User
 
 from .factories import UserFactory
 

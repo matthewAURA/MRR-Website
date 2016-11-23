@@ -44,5 +44,5 @@ README.html
 # Cookiecutter
 output/
 
-mmr_website/static/libs
+mrr_website/static/libs
 bower_components
