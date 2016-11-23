@@ -2,9 +2,9 @@
 """The app module, containing the app factory function."""
 from flask import Flask, render_template
 
-from mmr_website import commands, public, user
-from mmr_website.assets import assets
-from mmr_website.extensions import bcrypt, cache, csrf_protect, db, debug_toolbar, login_manager, migrate
+from mrr_website import commands, public, user
+from mrr_website.assets import assets
+from mrr_website.extensions import bcrypt, cache, csrf_protect, db, debug_toolbar, login_manager, migrate
 
 
 def create_app(config_object):

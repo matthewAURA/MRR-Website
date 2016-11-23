@@ -4,9 +4,9 @@
 import pytest
 from webtest import TestApp
 
-from mmr_website.app import create_app
-from mmr_website.database import db as _db
-from mmr_website.settings import TestConfig
+from mrr_website.app import create_app
+from mrr_website.database import db as _db
+from mrr_website.settings import TestConfig
 
 from .factories import UserFactory
 

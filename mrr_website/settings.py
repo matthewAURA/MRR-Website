@@ -5,7 +5,7 @@ import os
 
 class Config(object):
 
-    secret_key = os.environ.get('MMR-WEBSITE_SECRET', 'secret-key')  # TODO: Change me
+    secret_key = os.environ.get('MRR-WEBSITE_SECRET', 'secret-key')  # TODO: Change me
     app_dir = os.path.abspath(os.path.dirname(__file__))  # This directory
     project_root = os.path.abspath(os.path.join(app_dir, os.pardir))
     bcrypt_log_rounds = 13
