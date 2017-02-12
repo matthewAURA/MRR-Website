@@ -55,6 +55,17 @@ To run all tests, run ::
 
     flask test
 
+Deploying to Heroku
+-------------
+
+Deploys to Heroku are automated through travis ci. Three environment variables are required in your travis ci configuration to deploy:
+
+$STAGING_APP - The app name in Heroku 
+$DOCKER_USERNAME - Your Heroku username (email address)
+$DOCKER_PASSWORD - Your Heroku API key, accessable in https://dashboard.heroku.com/account
+
+The application is packaged as a docker image and is pushed to Herkou's docker repository. See .travis/after_success.sh
+
 
 Migrations
 ----------

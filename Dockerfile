@@ -10,6 +10,7 @@ ADD ./requirements /app/requirements
 ADD requirements.txt /app
 ADD autoapp.py /app
 ADD bower.json /app
+ADD start-in-docker.sh /app
 ADD .bowerrc /app
 
 WORKDIR /app
@@ -20,4 +21,4 @@ RUN pip3 install -r requirements.txt
 RUN npm install -g bower
 RUN bower --allow-root install
   
-CMD ["gunicorn", "-w4", "-b 0.0.0.0:8080", "autoapp:app"]
+CMD ["/app/start-in-docker.sh"]
